@@ -97,4 +97,11 @@ $mb: 25px;
     background-color: var(--light-cyan);
   }
 }
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 500px;
+    padding: 45px 45px 60px;
+  }
+}
 </style>
